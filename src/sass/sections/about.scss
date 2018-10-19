@@ -1,0 +1,50 @@
+#about
+{
+  width: 100%;
+  height: 100vh;
+  .about-container
+  {
+    width: calc(100% - 100px);
+    height: 80%;
+
+    .left-side
+    {
+      width: 35%;
+      display: flex;
+      float: left;
+      justify-content: center;
+      align-items: center;
+      
+      .about-img
+      {
+        width: 20em;
+        margin-top: 25%;
+      }
+    }
+
+    .right-side
+    {
+      width: 65%;
+      float: right;
+
+      .header-date
+      {
+        margin-top: 6%;
+        color: black;
+        font-size: 3em;
+        font-weight: bold;
+        
+      }
+    }
+
+    .resume-about
+    {
+      margin-top: 2%;
+      color: hsl(0, 0%, 20%);
+      font-size: 1em;
+      p{ margin-top: 0.7em; word-break: break-all;}
+      text-transform: capitalize;
+      
+    }
+  }
+}
