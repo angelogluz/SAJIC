@@ -1,50 +1,65 @@
 #about
 {
+  position: relative;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
+  // height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   .about-container
   {
-    width: calc(100% - 100px);
-    height: 80%;
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 
-    .left-side
+    &__left
     {
-      width: 35%;
-      display: flex;
-      float: left;
-      justify-content: center;
-      align-items: center;
-      
-      .about-img
-      {
-        width: 20em;
-        margin-top: 25%;
-      }
+      width: 45%;
     }
-
-    .right-side
+    &__right
     {
-      width: 65%;
-      float: right;
+      width: 55%;
+      text-align: justify;
+      &--title { font-size: 2em }
 
-      .header-date
+      &--text
       {
-        margin-top: 6%;
-        color: black;
-        font-size: 3em;
-        font-weight: bold;
-        
+        margin-top: 1.5%;
       }
-    }
-
-    .resume-about
-    {
-      margin-top: 2%;
-      color: hsl(0, 0%, 20%);
-      font-size: 1em;
-      p{ margin-top: 0.7em; word-break: break-all;}
-      text-transform: capitalize;
-      
     }
   }
+}
+
+
+@media( max-width: 1440px ){
+  #about{
+    height: 60vh;
+    .about-container{  width: 85% }
+  }
+}
+
+@media( max-width: 1366px ){
+  #about{
+    height: 80vh;
+  }
+}
+
+@media ( max-width: 1024px ){
+  .about-container{  width: 90% }
+}
+
+
+@media ( max-width: 720px ){
+  #about{ height: 100vh; }
+  .about-container__right--title { font-size: 1.2em }
+  .about-container__right--text { font-size: .9em }
+}
+
+@media ( max-width: 640px ){
+   #about { display: none }
 }

@@ -36,104 +36,96 @@
 
 
     <section id="home" class="home-page">
-      <div id="container-cnv">
-        <canvas id="canvas"></canvas>
-      </div>
-      <!-- <div id="particles-js"></div> -->
-      <!--
-      <header class="head" id="centro">
-        <img src="../img/logo.png" class="header-logo">
-        <nav class="nav-container" style="width:100%; text-align: center">
-            <a href="#home" class="nav__item"> <span>Home</span>  </a>
-            <a href="#inscreva-se" class="nav__item"> Inscreva-se </a>
-            <a href="#palestras" class="nav__item"> Palestras </a>
-            <a href="#patrocinio" class="nav__item"> Realização</a>
+
+      <header class="head" >
+
+        <div class="hamburguer">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <nav class="nav-container" >
+          <a href="#about" class="nav-container--item"> Sobre </a>
+          <a href="#sign-up" class="nav-container--item"> Inscrições </a>
+          <a href="#speeches"   class="nav-container--item"> Palestras </a>
+          <a href="#map"  class="nav-container--item"> Mapa </a>
+          <a href="#location"  class="nav-container--item"> Localização </a>
+          <a href="#partners"  class="nav-container--item"> Parceiros </a>
         </nav>
-    </header>
-    -->
+      </header>
+
+
     <div class="div-scroll">
         <a href="#about" class="scroll-link">
             <span class="cylinder"></span>
         </a>
     </div>
 
+    <div class="animation-wrapper">
+      <div class="particle particle-1"></div>
+      <div class="particle particle-2"></div>
+      <div class="particle particle-3"></div>
+      <div class="particle particle-4"></div>
+    </div>
+
       <img src="../img/bg.jpg" class="home-page__bg">
-      <img src="../img/logo_vertical_branco.png" class="home-page__logo">
-    </section>
+
+      <div class="home-content">
+        <div class="home-content__logo">
+          <img src="../img/sajic_logo.png" class="home-content__logo--logo1">
+          <img src="../img/logo1.png" class="home-content__logo--logo2">
+        </div>
+        <span class="home-content--description">Semana acadêmica | Jornada de Iniciação Cientifica</span>
+      </div>
+  </section>
+
+
+
     <section id="about">
-        <div class="container">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="column" style="text-align: center;">
-                            <img src="../img/logo-caixa.png" class="about-img">
-                    </div>
-                    <div class="column" style="padding: 10px; text-align: justify">
-                        <br>
-                        <h1 class="about-date">
-                            O Evento
-                        </h1>
-                        <br>
-                        <h4>Objetivos</h4>
-                        <br>
-                        <p>
-                                SAJIC é uma união de outros dois grandes eventos acadêmicos da Faculdade Senac Pelotas
-                                JAFAS (Jornada Acadêmica da Faculdade Senac) e JIC (Jornada de Iniciação Científica).
-                        </p>
-                        <br>
-                        <p>
-                                A 3ª SAJIC tem como objetivo promover o intercâmbio científico e cultural da comunidade acadêmica na cidade de Pelotas,
-                                compreendendo momentos de ação integrada, em que o público estudantil dos eixos de Gestão e Tecnologia participem de um 
-                               mesmo bloco de atividades, além de momentos específicos, em que palestras e workshops,
-                               se organizam conforme as características e necessidades da graduação e pós-graduação dessa Instituição.
-                        </p>
-                        <br>
-                        <h4>Local</h4>
-                        <br>
-                        <p>
-                            Faculdade de Tecnologia Senac Pelotas, Rua Gonçalves Chaves 602 - Centro, Pelotas (RS).
-                        </p>
-                        <br>
-                        <h4>Data</h4>
-                        <br>
-                        <p>
-                            O evento ocorrerá nos dias <b>12, 13, 14 e 15 de novembro</b> de 2018.
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="about-container">
+          <div class="about-container__left">
+            <img src="../img/logo-caixa.png">
+          </div>
+
+          <div class="about-container__right">
+            <h1 class="about-container__right--title">Sobre o evento</h1>
+            <p class="about-container__right--text">SAJIC é uma união de outros dois grandes eventos acadêmicos da Faculdade Senac Pelotas. JAFAS (Jornada Acadêmica da Faculdade Senac) e JIC (Jornada de Iniciação Científica).</p>
+            <p class="about-container__right--text">A 3ª SAJIC tem como objetivo promover o intercâmbio científico e cultural da comunidade acadêmica na cidade de Pelotas, compreendendo momentos de ação integrada, em que o público estudantil dos eixos de Gestão e Tecnologia participem de um mesmo bloco de atividades, além de momentos específicos, em que palestras e workshops, se organizam conforme as características e necessidades da graduação e pós-graduação dessa Instituição.</p>
+          </div>
         </div>
     </section>
 
-    
-    <section id="inscreva-se" class="info_section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="column notice" style="padding-left: 10px; padding-right: 10px">
-                    <div class="title">
-                        <h3>JIC</h3>
-                        <p>Submeta seu trabalho para Jornada de Iniciação Científica da SAJIC. </p>
-                    </div>
 
-                    <div class="btn-block">
-                        <a href="https://docs.google.com/document/d/1RSqJD9hvvMVkxbDp3wVg7ODRx6HuHhYciS_daRBHN4Y/edit" target="_blank" class="button-large button button-outline button-white">Abrir Edital</a>
-                    </div>
-                </div>
-                <div class="column subscribe" style="padding-left: 10px; padding-right: 10px">
-                    <div class="title">
-                        <h3>Palestras</h3>
-                        <p>Garanta seu certificado, inscreva-se já</p>
-                    </div>
-                    <div class="btn-block">
-                        <a id="btn-inscricao" class="button button-outline button-white button-large">Inscreva-se</a>
-                    </div>
+    <section class="info_section" id="sign-up">
+         <div class="container-fluid">
+             <div class="row">
+                 <div class="column notice">
+                     <div class="title">
+                         <h3>JIC</h3>
+                         <p>Submeta seu trabalho para Jornada de Iniciação Científica da SAJIC. </p>
+                     </div>
 
-                </div>
-            </div>
-        </div>
-    </section>
+                     <div class="btn-block">
+                         <a href="https://drive.google.com/file/d/0B9_0mNzUK445OHlWcEpKXy1wdWM/view" target="_blank" class="button-large button button-outline button-white">Abrir Edital</a>
+                     </div>
+                 </div>
+                 <div class="column subscribe">
+                     <div class="title">
+                         <h3>Inscrições para as palestras</h3>
+                         <p>Garanta seu certificado, inscreva-se já</p>
+                     </div>
+                     <div class="btn-block">
+                         <a id="btn-inscricao" class="button button-outline button-white button-large">Inscreva-se</a>
+                     </div>
 
-    
-    <section id="palestras" class="timeline_section">
+                 </div>
+             </div>
+         </div>
+     </section>
+
+
+    <section id="speeches" class="timeline_section">
         <h1>Palestras</h1>
         <p style="text-align: center;">Em Construção - Aguarde Novidades</p>
         <!-- <div class="timeline-wrap">
@@ -141,7 +133,7 @@
                 <li class="era">
                     <h2 class="era__title">12 de novembro de 2018</h2>
                 </li>
-             
+
             </ul>
         </div>
         <div class="timeline-wrap">
@@ -149,7 +141,7 @@
                 <li class="era">
                     <h2 class="era__title">13 de novembro de 2018</h2>
                 </li>
-                
+
 
             </ul>
         </div>
@@ -158,7 +150,7 @@
                 <li class="era">
                     <h2 class="era__title ">14 de novembro de 2018</h2>
                 </li>
-               
+
 
             </ul>
         </div>
@@ -171,7 +163,7 @@
                 <li class="era">
                     <h2 class="era__title">15 de novembro de 2018</h2>
                 </li>
-               
+
             </ul>
         </div> -->
     </section>
@@ -533,59 +525,33 @@
         </div>
     </section>
 
-    <section id="contact" class="section_geolocation">
+    <section id="location" class="section_geolocation">
         <div id="eventMap"></div>
     </section>
 
-    <section id="patrocinio" class="partners_section">
-        <div class="container" style="text-align: center">
+    <section class="partners_section">
+        <div class="container-fluid">
+            <h1>Realização</h1>
+            <img src="./img/senac_logo.png">
+            <hr>
             <div class="row">
                 <div class="column">
-                    <h1>Realização</h1>
-                    <img src="./img/senac_logo.png" style="width:500px">
-                    <br><br>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="column">
-                    <h2>Patrocinadores</h2>
-                    <br>
-                    <div class="container-fluid">
-                        <div class="row" style="text-align:center; vertical-align: middle; padding: 10px"> 
-                            <div class="column" style="text-align:center">
-                                <img src="http://www.usimec.com.br/portal/bundles/usimecfrontendportal/images/logos/acpo.png" style="width:200px">
-                                <br><br>
-                            </div>
-                            <div class="column">
-                                <img src="https://www.bridge-mt.com/assets/images/logo.png" style="width:200px">
-                            </div>
-                        </div>
-                        <div class="row" style="text-align:center; vertical-align: middle">
-                            <div class="column">
-                                <img src="http://ginasiobolanarede.com.br/site/img/topo/logo-bola-na-rede.png" style="width:150px">
-                            </div>
-                            <div class="column">
-                                <br>
-                                <img src="https://github.com/fredericokremer/sajic2018/blob/master/img/atacado-globo.jpg?raw=true" style="width:200px">
-                                <br>
-                            </div>
-                        </div>
+                    <h2>Patrocínio</h2>
+                    <div class="companies flex flex-space-around">
+                        <a href="https://www.bridge-mt.com/en/"    target="_blank"  class="logo logo-mock bridge"></a>
+                        <a href="http://construtoraacpo.com.br"    target="_blank"  class="logo logo-mock acpo"></a>
+                        <a href="http://facebook.com/atacadoglobo" target="_blank"  class="logo logo-mock atacadoglobo"></a>
+                        <a href="ginasiobolanarede.com.br"         target="_blank"  class="logo logo-mock bolanarede"></a>
+                        <a href="www.izyplay.com.br"               target="_blank"  class="logo logo-mock izy"></a>
                     </div>
-                    <br>
                 </div>
                 <div class="column">
-                        <h2>Apoio</h2>
-                        <br>
-                        <div class="container-fluid">
-                            <div class="row" style="text-align:center"> 
-                                <div class="column" style="text-align:center">
-                                    <img src="https://scontent.fpet1-1.fna.fbcdn.net/v/t1.0-9/19554587_1603308773039209_5239502873966552249_n.png?_nc_cat=111&_nc_eui2=AeGcWgMDIE5cadZ-nymYrmK4iLtPFWbBfTy4ulRGLihZS_3h3d5HJuVz2T9AZfv3CzgALJoCMaGrfhmztpXzAe3KCNKZME7MvqbWEV2wCU0F-w&oh=0d4517464f5d602e476e1f62df3ad43e&oe=5C5E8DE9" style="width:200px">
-                                </div>
-                            </div>
-                        </div>
-    
+                    <h2>Apoio</h2>
+                    <div class="companies flex flex-space-around">
+                      <a href="http://f5graficaeserigrafia.com.br/" target="_blank" class="logo logo-mock f5-grafica"></a>
+                      <a href="" target="_blank" class="logo logo-mock mariachi"></a>
                     </div>
+                </div>
             </div>
         </div>
     </section>

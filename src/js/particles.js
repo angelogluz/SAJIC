@@ -21,7 +21,7 @@ Animate.prototype.options = {
   speed: 10, // Time in seconds to shift points
   sync: false, // Should points move in sync
   distance: 100, // Distance to move points
-  lineColor: '35, 107, 142',
+  lineColor: '216, 216, 190',
   circleColor: '216, 216, 191',
   radius: 15,
   lineWidth: 1,

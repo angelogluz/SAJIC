@@ -1,316 +1,90 @@
-@media screen and (max-device-width: 480px){
-  .head
-  {
-    .nav-container
-    {
-      .nav__item { font-size: 1.9em; }
-    }
-  }
+@media (min-width: 375px){
 
-  .home-page
-  {
-    .home-page__logo {  width: 10em; }
-  }
+  .home-content--description { font-size: .8em !important }
 }
 
-@media screen and (max-device-width: 1366px){
-  .home-page
-  {
-    .home-page__logo {  width: 20em; }
-  }
+
+
+@media (min-width: 500px){
+
+  .home-content--description { font-size: .9em !important }
+
 }
 
-@media screen and(max-device-width: 1366px){
-//   .scroll-link {
-//     font : normal 3em 20px/1 'Josefin Sans', sans-serif;
-//     .cylinder
-//     {
-//       top: 1%;
-//       left: 50%;
-//       width: 31px;
-//       height: 53px;
-//       margin-left: -5px;
-//     }
-//     .text-scroll { display: none; margin-top: 6em;}
-//   }
-  .nav-container
-  {
-    padding: 2em 2em;
-    margin-top: -5em;
-    margin-left: -16em;
-    margin-right: -10%;
-
-    .nav__item
-    {
-      font-weight: 600 !important ;
-      letter-spacing: .4em;
-      font-size: 1em;
-      align-content: center;
-    }
-
-  }
-}
-// @media screen and (max-device-width: 1280px){
-//   #sponsor
-//   {
-//     margin: 0 1%;
-//     .sponsor-container { width: 100%; }
-//   }
-// }
-
-@media screen and(max-device-width: 1024px){
-  .home-page
-  {
-    .home-page__logo {  width: 20em; }
-  }
-  .nav-container
-  {
-    padding: 2em 2em;
-    margin-top: -5em;
-    margin-left: -16em;
-    margin-right: -10%;
-
-    .nav__item
-    {
-      font-weight: 600 !important ;
-      letter-spacing: .4em;
-      font-size: 1em;
-      align-content: center;
-      text-align: center
-    }
-
-  }
+@media (min-width: 500px){
+  .home-content__logo{ width: 50% !important }
+  .nav-container--item { font-size:  1.5em !important }
 }
 
-@media screen and (max-device-width: 720px){
 
-  .about-container{
-    .left-side{
-      width: 45%;
-      display: flex;
-      float: left;
+@media (min-width: 800px){
+  .div-scroll{ bottom: 4% }
+  .home-content__logo
+  {
+     width: 30% !important;
+     &--logo1{ display: none !important }
+     &--logo2{ display: flex !important }
+   }
 
-    }
-    
-    .right-side{
-      width: 65%;
-      float: right;
+}
 
-      .header-date{
-        .about-date-subtitle{
-          background-color: rgb(109, 92, 92);
-          font-size: 0.5em;
-          text-transform: lowercase;
-          
-        }
-        .about-date{
-          background-color: rgb(109, 92, 92);
-          font-size: 0.5em;
-          text-transform: lowercase;
-          .number-title{
-          }
-        }
-      }
-    }
+@media (min-width: 1024px){
+  .home-content__logo{ width: 25% !important }
+  .home-content--description { font-size: .85em !important }
+  .hamburguer { display: none}
+  .div-scroll{ bottom: 3% }
+
+  nav
+  {
+    opacity:1 !important;
+    visibility: visible !important;
+    height: 100%;
+    background: transparent;
   }
-  
 
   .nav-container
   {
-    padding: 1em 1em;
-    margin-top: -2em;
-    margin-left: -30%;
-    margin-right: -10%;
-
-    .nav__item
+    flex-direction: row !important;
+    // justify-content: flex-end !important;
+    padding: 1.5em 1em !important;
+    &--item
     {
-      font-weight: 700 !important ;
-      letter-spacing: .5em;
-      font-size: 0.5m;
-      align-content: center;
-      text-align: center
-    }
-  }
-}
+      font-size: .8em !important;
+      margin-right: 1.8% !important;
+      margin-top: 0 !important;
+      letter-spacing: 1px !important;
 
-
-
-@media screen and (max-device-width: 480px){
-  .head
-  {
-
-    .header-logo
-    {
-      display: none;
-    }
-
-
-    .nav-container
-    {
-      padding: 1em 1em;
-      margin-top: -2em;
-      margin-left: -30%;
-      margin-right: -10%;
-
-
-      .nav__item
-      {
-        font-weight: 700 !important ;
-        letter-spacing: .1em;
-        font-size: 0.6em;
-        align-content: center;
+      &:nth-child(1){
+        margin-right: 1.8% !important;
+        margin-top: 0 !important;
+        display: block !important;
       }
 
-    }
-  }
-}
-  //   .main-home
-  // {
-  //    display: flex;
-  //    justify-content: center;
-  //    align-items: center;
-  //    margin-top: -5%;
-  //    width: $full-size;
-
-  //   .hackathon-logo {  width: $full-size; }
-  //   .btn-subscribe
-  //   {
-  //     font-size: 2.8em;
-  //     width: 70%;
-  //     padding: 1.2em 0;
-  //   }
-  // }
-
-
-
-@media screen and (max-device-width: 480px){
-.div-scroll
-{
-  position: absolute;
-  bottom: 3%;
-  left: 50%;
-
-  .scroll-link {
-    font : normal 3em 20px/1 'Josefin Sans', sans-serif;
-    .cylinder
-    {
-      top: 1%;
-      left: 50%;
-      width: 31px;
-      height: 53px;
-      margin-left: -5px;
-    }
-    .text-scroll { display: none; margin-top: 6em;}
-  }
-
-  @-webkit-keyframes scrolling {
-    0% {
-      -webkit-transform: translate(0, 0);
-      opacity: 0;
-    }
-    40% {
-      opacity: 1;
-    }
-    80% {
-      -webkit-transform: translate(0, 20px);
-      opacity: 0;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  @keyframes scrolling {
-    0% {
-      transform: translate(0, 0);
-      opacity: 0;
-    }
-    40% {
-      opacity: 1;
-    }
-    80% {
-      transform: translate(0, 20px);
-      opacity: 0;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-}
-
-  #about
-  {
-    height: 50%;
-  }
-
-  #contact
-  {
-    height: 65%;
-
-    #googleMap
-    {
-      height: 70%;
-    }
-
-    .contact-container
-    {
-      margin-top: -5%;
-      height: 40%;
-      .social-container
-      {
-        .social-icon { width: 4.2em; }
+      &:nth-child(6){
+        margin-right: 0;
       }
     }
   }
 }
 
-//   #sponsor
-// {
-//   height: 50%;
 
-//   .sponsor-container
-//   {
-//     .sponsor__single-content
-//     {
-//       height: 35%;
-//       margin-top: 2%;
+@media (min-width: 1280px){
+  .home-content__logo{ width: 20% !important }
+  .home-content--description { font-size: .8em !important }
+}
 
-//       .college-icon
-//       {
-//         width: 18em;
-//         //height: 7em;
-//         margin-top: 1%;
-//       }
-//     }
+@media (min-width: 1366px){
+  .home-content__logo{ width: 18% !important }
+}
 
-//     .sponsor__multiple-content
-//     {
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: center;
-//       align-items: center;
-//       height: 75%;
+@media (min-width: 1440px){
+  .home-content__logo{ width: 21% !important }
+}
 
-//       .multiple-content-container
-//       {
-//         .sponsor-items
-//         {
-//           width: 100%;
-//           height: 8em;
-//           .sponsor__icon
-//           {
-//             width: 10em;
-//             height: 4.6em;
-//             margin: .4em;
-//           }
-//         }
-//       }
-//     }
-//   }
+@media (min-width: 1680px){
+  .home-content__logo{ width: 19% !important }
+}
 
-// }
-
-  // .sponsor-title
-  // {
-  //   font-size: 1.8em;
-  // }
-
+@media (min-width: 1920px){
+  .home-content--description { font-size: .9em !important }
+}

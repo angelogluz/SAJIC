@@ -1,12 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+// @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 
 .div-scroll
 {
   position: absolute;
-  bottom: 1%;
-  left: auto;  
+  bottom: 10%;
+  left: auto;
   right: auto;
-  top: 85%;
+  // top: 85%;
   padding-top: 4%;
   z-index:1;
 
@@ -14,7 +14,7 @@
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
     color: white;
-    font : normal 2em 20px/1 'Josefin Sans', sans-serif;
+    // font : normal 2em 20px/1 'Josefin Sans', sans-serif;
     letter-spacing: .2em;
     transition: opacity .3s;
     padding-top: 50px;
